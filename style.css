@@ -1,15 +1,37 @@
 .new{
-    color: red;
+    color: rgb(17, 19, 119);
     text-align: center;
-    background-color: royalblue;   
+    background-color: rgb(204, 212, 236);   
 }
 
 #para{
-    background-color: lawngreen;
+    background-color: rgb(192, 205, 209);
     text-align: center;
     color: maroon;
 }
 
-.whole{
-    background-color: rebeccapurple;
+.box_model{
+    margin: 1rem;
+    border: 0.5rem solid red;
+    padding: 2rem;
+    background-color: rgb(61, 51, 153);
+}
+
+.form{
+    text-align: center;
+    border: 0.2rem black solid;
+    padding: 2rem;
+    margin: 0 5em 0 5em;
+}
+
+.border{
+    background-color: burlywood;
+    
+}
+
+.container{
+    size: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
 }

@@ -25,13 +25,27 @@
 }
 
 .border{
-    background-color: burlywood;
-    
+    height: auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.border:hover{
+    transform: scale(1.2);
+    transition-duration: 100ms;
+    border: none;
+}
+
+.good{
+    margin: 5px;
+    border-bottom: grey 5px solid;
+    border-right: grey 5px solid;
+    border-radius: 4px;
+    border-style: outset;
 }
 
 .container{
     size: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;    
 }

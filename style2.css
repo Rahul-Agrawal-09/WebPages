@@ -1,0 +1,33 @@
+.new{
+    margin: 0px;
+    color: rgb(17, 19, 119);
+    text-align: center;
+    background-color: rgb(204, 212, 236);   
+}
+
+#para{
+    text-align: center;
+    margin: 1rem 0;
+    border: aqua 12px solid;
+}
+
+.form{
+    text-align: center;
+    margin: 0 5rem;
+    border: 0.5rem blue solid;
+    padding: 2rem 0;
+}
+
+.col-sm{
+    min-width: 30%;
+    padding: 12px;
+}
+
+.abc{
+    text-align: center;
+}
+
+.abc:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}

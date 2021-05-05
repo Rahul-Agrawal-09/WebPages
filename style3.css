@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+}
+
+.field{
+    margin: 10px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.form{
+    margin: 0.25em;
+    border: 2px solid #ff9900;
+    padding: 10px 0px;
+}
+
+.body{
+    text-align: center;
+    margin: 0;
+}
+
+.btn{
+    margin: 20px;
+    padding: 0.75em 2.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #ff9900 60%, #ffb84e);
+    border-radius: 100px;
+    box-shadow: 0 15px 10px rgba(255, 153, 0, 0.45);
+    transition: 0.3s;    
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 30px 20px rgba(255, 153, 0, 0.25);
+}
+
+.btn:active{
+    transform: translateY(0);
+    box-shadow: 0 10px;
+}

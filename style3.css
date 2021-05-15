@@ -20,6 +20,7 @@
 }
 
 .btn{
+    border: none;
     margin: 20px;
     padding: 0.75em 2.25em;
     text-decoration: none;
@@ -30,7 +31,7 @@
     background-image: linear-gradient(to bottom right, #ff9900 60%, #ffb84e);
     border-radius: 100px;
     box-shadow: 0 15px 10px rgba(255, 153, 0, 0.45);
-    transition: 0.3s;    
+    transition: 0.3s;
 }
 
 .btn:hover{
